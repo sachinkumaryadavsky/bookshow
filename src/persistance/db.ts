@@ -12,3 +12,5 @@ export const AppDataSource = new DataSource({
   entities: ['src/persistence/entities/*.ts'],
   synchronize: true, // dev only
 });
+
+export const db = AppDataSource;
